@@ -13,7 +13,7 @@ struct WeatherManager {
     
     func fetchWeather(cityName: String) {
         let requestURL = "\(weatherURL)&q=\(cityName)"
-        preformRequest(urlString: requestURL)
+        performRequest(urlString: requestURL)
     }
     
     func preformRequest(urlString: String) {
