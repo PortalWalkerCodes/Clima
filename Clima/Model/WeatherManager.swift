@@ -25,7 +25,7 @@ struct WeatherManager {
         }
     }
     
-    func handel(data: Data?, responce: URLResponse?, error: Error?) {
+    func handle(data: Data?, response: URLResponse?, error: Error?) {
         if error != nil {
             print(error!)
         }
